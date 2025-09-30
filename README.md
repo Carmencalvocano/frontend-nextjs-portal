@@ -70,7 +70,7 @@ frontend-nextjs-portal/
 
 ## Capturas
 
-![Listado de ofertas](/frontend-nextjs-portal/Screenshots/Version1_Show_offers_basic_2025-09-30%20.png)
+![Listado de ofertas](Screenshots/Version1_Show_offers_basic_2025-09-30.png)
 
 ---
 
