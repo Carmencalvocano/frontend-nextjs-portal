@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Next.js Portal de Ofertas
 
-## Getting Started
+🚀 **Proyecto:** Portal de ofertas para estudiantes
+**Tecnologías:** Next.js, TypeScript, Tailwind CSS, PWA (offline básico)
+**Estado:** Mock de datos inicial, listo para integrar backend.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Descripción
+
+Este proyecto es un **frontend en Next.js** que muestra un listado de ofertas para estudiantes.
+Incluye:
+
+* Página principal con listado de ofertas.
+* Páginas de login y registro (UI, sin backend aún).
+* Diseño responsive con Tailwind CSS.
+* Preparado para PWA (funcionamiento offline básico).
+
+---
+
+## Instalación
+
+1. Clona el repositorio:
+
+```
+git clone https://github.com/Carmencalvocano/frontend-nextjs-portal.git
+cd frontend-nextjs-portal
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala dependencias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Ejecuta la app en modo desarrollo:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estructura del proyecto
 
-## Deploy on Vercel
+```
+frontend-nextjs-portal/
+ ┣ app/
+ ┃ ┣ page.tsx         # Página principal con listado de ofertas
+ ┃ ┣ layout.tsx       # Layout general
+ ┣ public/            # Archivos estáticos (logo, imágenes)
+ ┣ screenshots/       # Capturas del seguimiento
+ ┣ styles/            # Estilos globales
+ ┣ data/offers.ts     # Mock de ofertas
+ ┣ package.json
+ ┣ tsconfig.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Cómo usar
+
+* Las ofertas se cargan desde `data/offers.ts` (mock JSON).
+* Se muestran en la página principal.
+* Más adelante se integrará con backend FastAPI y base de datos PostgreSQL.
+
+---
+
+## Capturas
+
+![Listado de ofertas](/frontend-nextjs-portal/Screenshots/Version1_Show_offers_basic_2025-09-30%20.png)
+
+---
+
+## Próximos pasos
+
+* Integración con backend FastAPI + PostgreSQL.
+* Autenticación real de usuarios.
+* Funcionalidad de matching y QR.
+* Despliegue en Vercel (frontend) y Render/Railway (backend).
+
+---
+
+## Autor
+
+Carmen Calvo Cano – [Carmencalvocano](https://github.com/Carmencalvocano)
