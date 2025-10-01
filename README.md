@@ -1,14 +1,14 @@
 # Frontend Next.js Portal de Ofertas
 
-🚀 Proyecto: Portal de ofertas para estudiantes
-Tecnologías: Next.js, TypeScript, Tailwind CSS, PWA (offline básico)
-Estado: Integrado con backend FastAPI + PostgreSQL, mostrando ofertas reales.
+🚀 **Proyecto:** Portal de ofertas para estudiantes
+**Tecnologías:** Next.js, TypeScript, Tailwind CSS, PWA (offline básico).
+**Estado:** Integrado con backend FastAPI + PostgreSQL, mostrando ofertas reales.
 
 ---
 
 ## Descripción
 
-Este proyecto es un frontend en Next.js que muestra un listado de ofertas para estudiantes desde un backend FastAPI conectado a PostgreSQL.
+Este proyecto es un **frontend en Next.js** que muestra un listado de ofertas para estudiantes desde un backend FastAPI conectado a PostgreSQL.
 Incluye:
 
 * Página principal con listado de ofertas reales desde la base de datos.
@@ -70,10 +70,10 @@ frontend-nextjs-portal/
 ## Capturas
 
 VERSIÓN 1:
-![Listado de ofertas](Screenshots/Version1_Show_offers_basic_2025-09-30.png)
+![Listado de ofertas](screenshots/Version1_Show_offers_basic_2025-09-30.png)
 
 VERSIÓN 2:
-![Listado de ofertas CONEXIÓN CON API](Screenshots/Version2_Show_offers_basic_2025-10-01.png)
+![Listado de ofertas CONEXIÓN CON API](screenshots/Version2_Show_offers_basic_2025-10-01.png)
 
 
 ---
