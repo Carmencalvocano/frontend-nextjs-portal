@@ -72,10 +72,10 @@ frontend-nextjs-portal/
 ## Capturas
 
 VERSIÓN 1:
-![Listado de ofertas](screenshots/Version1_Show_offers_basic_2025-09-30.png)
+![Listado de ofertas](Screenshots/Version1_Show_offers_basic_2025-09-30.png)
 
 VERSIÓN 2:
-![Listado de ofertas CONEXIÓN CON API](screenshots/Version2_Show_offers_basic_2025-10-01.png)
+![Listado de ofertas CONEXIÓN CON API](Screenshots/Version2_Show_offers_basic_2025-10-01.png)
 
 
 ---
