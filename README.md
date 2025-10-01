@@ -23,18 +23,24 @@ Incluye:
 
 1. Clona el repositorio:
 
+```
 git clone https://github.com/Carmencalvocano/frontend-nextjs-portal.git
 cd frontend-nextjs-portal
+```
 
 2. Instala dependencias:
 
+```
 npm install
+```
 
 3. Ejecuta la app en modo desarrollo:
 
+```
 npm run dev
+```
 
-4. Abre http://localhost:3000 en tu navegador.
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
 ---
 
@@ -63,7 +69,10 @@ frontend-nextjs-portal/
 
 ## Capturas
 
+VERSIÓN 1:
 ![Listado de ofertas](Screenshots/Version1_Show_offers_basic_2025-09-30.png)
+
+VERSIÓN 2:
 ![Listado de ofertas CONEXIÓN CON API](Screenshots/Version2_Show_offers_basic_2025-10-01.png)
 
 
