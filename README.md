@@ -63,12 +63,9 @@ frontend-nextjs-portal/
 
 ## Capturas
 
-<<<<<<< HEAD
 ![Listado de ofertas](Screenshots/Version1_Show_offers_basic_2025-09-30.png)
-=======
-![Listado de ofertas](/frontend-nextjs-portal/screenshots/Version1_Show_offers_basic_2025-09-30.png)
-![Listado de ofertas CONEXIÓN CON API](/frontend-nextjs-portal/screenshots/Version2_Show_offers_basic_2025-09-30.png)
->>>>>>> 21d7815 (✨ Frontend Next.js integrado con backend FastAPI y PostgreSQL, mostrando ofertas reales)
+![Listado de ofertas CONEXIÓN CON API](Screenshots/Version2_Show_offers_basic_2025-09-30.png)
+
 
 ---
 
