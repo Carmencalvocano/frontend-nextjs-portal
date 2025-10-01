@@ -46,6 +46,7 @@ npm run dev
 
 ## Estructura del proyecto
 
+```
 frontend-nextjs-portal/
  ┣ app/
  ┃ ┣ page.tsx         # Página principal con listado de ofertas reales
@@ -55,6 +56,7 @@ frontend-nextjs-portal/
  ┣ styles/            # Estilos globales
  ┣ package.json
  ┣ tsconfig.json
+```
 
 ---
 
